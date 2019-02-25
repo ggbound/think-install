@@ -22,7 +22,7 @@ class ThinkFramework extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('scolib/thinkphp' !== $package->getPrettyName()) {
+        if ('ggbound/tp3' !== $package->getPrettyName()) {
             throw new \InvalidArgumentException('Unable to install this library!');
         }
 
